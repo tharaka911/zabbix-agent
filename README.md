@@ -21,6 +21,7 @@ chmod +x install.sh
  ./install.sh
 ```
 5. Enter the IP address or hostname of the Zabbix server and the hostname for the machine when prompted.
+6. Finally go to zabbix server dashboard and add the new server for monitoring. 
 
 # Note: 
 
