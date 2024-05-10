@@ -13,10 +13,12 @@ sudo apt-get update
 sudo apt-get install -y wget
 
 # Download the Zabbix agent 2 package for Debian based systems
-wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix/zabbix-agent2_6.0.0-1%2Bubuntu20.04_amd64.deb
+# wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix/zabbix-agent2_6.0.0-1%2Bubuntu20.04_amd64.deb
+wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix/zabbix-agent-dbgsym_6.0.10-1%2Bubuntu22.04_amd64.deb
 
 # Install the Zabbix repository configuration package
-sudo dpkg -i zabbix-agent2_6.0.0-1+ubuntu20.04_amd64.deb
+# sudo dpkg -i zabbix-agent2_6.0.0-1+ubuntu20.04_amd64.deb
+sudo dpkg -i zabbix-agent-dbgsym_6.0.10-1%2Bubuntu22.04_amd64.deb
 
 # Update package lists
 sudo apt-get update
