@@ -9,10 +9,10 @@ echo "Please enter the hostname for this machine:"
 read hostname
 
 # Download the Zabbix agent 2 package for Debian based systems
-sudo wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_7.0-2+ubuntu24.04_all.deb
+sudo wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_7.0-2+ubuntu22.04_all.deb
 
 # Install the Zabbix repository configuration package
-sudo dpkg -i zabbix-release_7.0-2+ubuntu24.04_all.deb
+sudo dpkg -i zabbix-release_7.0-2+ubuntu22.04_all.deb
 
 # Update package lists
 sudo apt update
